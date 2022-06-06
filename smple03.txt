@@ -1,0 +1,10 @@
+with open("smple.txt", mode='rb') as f:
+    result = chardet.detect(f.read())
+    print(result)
+
+with open('smple.txt', 'r', encoding='utf-8', newline=None) as a_file:
+    txt = a_file.read()
+
+print(str.isalnum("smple.txt"))
+print(str.isalpha("smple.txt"))
+print(str.isdecimal("smple.txt"))
